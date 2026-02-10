@@ -1,0 +1,25 @@
+# RPM build artifacts
+*.rpm
+*.src.rpm
+*.log
+
+# Build directories
+BUILD/
+BUILDROOT/
+RPMS/
+SOURCES/
+SPECS/
+SRPMS/
+rpmbuild/
+
+# Downloaded sources (when using lookaside cache)
+# Uncomment the following lines if you want to exclude tarballs
+# *.tar.gz
+# *.tar.bz2
+# *.tar.xz
+# *.zip
+
+# Temporary files
+*~
+*.swp
+.*.swp
